@@ -19,8 +19,11 @@ export default defineConfig({
         {
           label: "Shopify",
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: "Install", slug: "shopify/install" },
+            {
+              label: "Store Credit",
+              autogenerate: { directory: "shopify/store-credit" },
+            },
           ],
         },
         {
